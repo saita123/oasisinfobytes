@@ -1,0 +1,87 @@
+<html>
+<body>
+<h2>TEMPERATURE CONVERTER</h2>
+
+<input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+
+<input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+
+<input type="text" id="kelvin" placeholder="Kelvin" name="k" value="" />
+
+<button id="convert">Change</button>
+<button id="clear">Reset</button>
+<style>
+body{
+    background-color:pink;
+    display:center;
+}
+#convert {
+  background-color: #bba768;
+}
+#convert:hover {
+  background-color: #bcc768;
+}
+h2{
+  font-family: comic-sans;
+  color: Red;
+}
+input {
+  display: block;
+  padding: 4px;
+  margin-top: 40px;
+  font-size: 2em;
+  color: brown;
+  font-family: arial;
+}
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+:-ms-input-placeholder {  
+   color: #ccc;  
+}
+button {
+  padding: 18px;
+  font-size: 1.1em;
+  color: #66666;
+  </style>
+  <script>
+  document.getElementById('convert').onclick = tempConvert;
+document.getElementById('clear').onclick = clearForm;
+
+function tempConvert() {
+    
+    var fahrenheit = document.getElementById("fahrenheit").value;
+    var celsius = document.getElementById("celsius").value;
+    var kelvin = document.getElementById("kelvin").value;
+    
+  
+  if (fahrenheit != '') {
+        celsius = (parseFloat(fahrenheit) - 32) / 1.8;
+        kelvin=
+        ((parseFloat(fahrenheit) -32)/1.8)+273.15;
+    } else if(celsius != ''){
+        fahrenheit = (parseFloat(celsius) * 1.8) + 32;
+        kelvin= (parseFloat(celsius))+273.5;
+    }
+    else if(kelvin != ''){
+        fahrenheit=
+(((parseFloat(kelvin))-273.15)*1.8)+32;
+ celsius= (parseFloat(kelvin))-273.5;
+    }
+    document.getElementById('fahrenheit').value = parseFloat(fahrenheit).toFixed(1);
+    document.getElementById('celsius').value = parseFloat(celsius).toFixed(1);
+    document.getElementById('kelvin').value = 
+    parseFloat(kelvin).toFixed(1);
+    
+}
+
+
+function clearForm() {
+    document.getElementById('fahrenheit').value = '';
+    document.getElementById('celsius').value = '';
+    document.getElementById('kelvin').value = '';
+
+} 
+  </script>
+  </body>
+  </html>
