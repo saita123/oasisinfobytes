@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio Website">
+    <title>Portfolio Website | Welcome</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+     
+    <header class="header">
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ankita's Portfolio </span> </h1>
+        </div>         <header > 
+         <nav class="bar"> <div class="bar-container container">
+         <ul class="bar"> <li><a href="about.html">About</a></li> 
+  <li><a href="contact.html">Contact</a></li> 
+<li><a href="projects.html">Projects</a></li></ul>  
+</div> </nav>
+</header>
+
+ <div class="home-content" id="home-page"> <div class="name"> <h2>Hi! Ankita</h2> <p>An Intern of Web Development,an aspiring Data Analyst</p> </div> <div class="angle-down-icon"> <a href="#about"><i class="fas fa-angle-down"></i></a> </div> </div> 
+<section id="about.html"> <div class="container"> <h1 class="text-center">About Me</h1> <div class="row mt-4"> <div class="col-lg-4"> <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Portfolio/1.jpg" class= "imageAboutPage" alt="">
+<p>Ankita Upadhyay<br>
+Bachelor in Computer Science and Engineering<br>
+<p>
+ </div>
+  </section>
+
+
+
+<div class="work-arrow"><h3 class="skills-heading">My Skills</h3>  <li>Data Analytics</li> <li>HTML</li>
+ <li>CSS</li>
+ <li>Web Development</li>  <li>Javascript</li>
+ <li>Python</li> <li>Java</li> 
+ <li>Data Science</li>
+ <li>Machine Learning</li>
+</section> 
+
+
+<section id="services"> <div class="container"> <h1 class="text-center">Services</h1> 
+<h4>HR Hiring Process Optimisation</h4> <p
+   class="card-text mt-3" >Build Using HTML,CSS,JS</p> <button><a href="https://github.com/saita123/Axis-bank-Hackathon/tree/d45c1234691f0a94b5ab17aef871a6bfaa6999e5/.github/workflows" target="blank">View source <i class="fas fa-external-link-alt"></i></a> </button>
+   <div class="proj-2"> <img src=" file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Portfolio/2.jpg"> <div class="proj2-details"> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> </div>
+<div class="row"> <div class="col-lg-4 mt-4"> <div class="card servicesText"> <div class="card-body"> <i class="fas servicesIcon fa-clock"></i>
+ <h3 class="card-title mt-3">Website Development</h3> <p class="card-text mt-3">I have designed a website which helps in task automation.It makes the work of Talent Acquisition team easy.It helps in CV Ranking,Scheduling Interviews,Sending Emails,Filtering Candidates according to their skills. </p> </div> </div> </div>
+ </section>
+
+
+
+
+   
+  <section id="contact"> <div class="container mt-3 contactContent"> <h1 class="text-center">Contact Me</h1> 
+<div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-made" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">premium bootstrap themes</a><style>#my-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+ </style> </div> </div> <div class="col-lg-6">
+ <input type="text" class="form-control form-control-lg" placeholder="Name"> <input type="email" class="form-control mt-3" placeholder="Email"> <input type="text" class="form-control mt-3" placeholder="Subject"> <div class="mb-3 mt-3"> <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea> </div> </form> <button type="button" class="btn btn-success mt-3">Contact Me</button>
+ <p class="mail"> Get in touch with me <i class="fas fa-arrow-right"></i> saitama48675@gmail.com </p> <p class="links">My Linkedin Profile</p> <a href="https://www.linkedin.com/in/ankita-upadhyay-575293288" "target="blank"><i class="fab fa-linkedin"> Linkedin</i>
+  </a>  
+  <p class="links">My Github Profile</p>
+  <a href="https://github.com/saita123"
+   target="blank"><i class="fab fa-github"></i> Github</a> </div> </div> </div> </section>
+</body>
+</html>
+
+
+    
+    
+  </body>
+</html>
